@@ -5,4 +5,4 @@
  * @author desrtfx
  *
  */
-package day05;
+package day02;

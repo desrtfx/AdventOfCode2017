@@ -29,14 +29,6 @@ public class Day02 {
 		for (int row = 0; row < data.length; row++) {
 			int max = data[row][data[row].length - 1];
 			int min = data[row][0];
-			// for(int col = 1; col < data[row].length; col++) {
-			// if (max < data[row][col]) {
-			// max = data[row][col];
-			// }
-			// if (min > data[row][col]) {
-			// min = data[row][col];
-			// }
-			// }
 			sum += (max - min);
 		}
 
